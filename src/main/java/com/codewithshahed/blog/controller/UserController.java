@@ -46,8 +46,6 @@ public class UserController {
     //Get-user get
     @GetMapping("/{userId}")
     public ResponseEntity<UserDto>getSingleUser(@PathVariable Integer userId){
-
-        //Shahed
         return ResponseEntity.ok(this.userService.getUserById(userId));
     }
 
