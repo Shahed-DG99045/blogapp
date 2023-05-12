@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 @Service
 public class UserServiceImpl implements UserService {
 
-    //testing service
+    //Autowired
     @Autowired
     private UserRepo userRepo;
 
